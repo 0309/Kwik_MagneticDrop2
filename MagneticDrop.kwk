@@ -1,1 +1,60 @@
-<project id="MagneticDrop">  <settings>    <name>MagneticDrop</name>    <media>Book</media>    <device>New iPad</device>    <OS>iOS</OS>    <zoom>zoomStretch</zoom>    <width>2048</width>    <height>1536</height>    <orientation>Landscape</orientation>    <resolution>264</resolution>    <bookmark>false</bookmark>    <swipe>true</swipe>    <pinch>false</pinch>    <thumbs>false</thumbs>  </settings>  <pages>    <page id="page1">      <name>page1</name>      <number>1</number>      <file>~/Development/Kwik/MagneticDrop/page1.psd</file>      <fileName>page1.psd</fileName>      <drag id="drag_sheep">        <name>drag_sheep</name>        <target>Layer</target>        <layer>dragobject</layer>        <boundsX>false</boundsX>        <boundsY>false</boundsY>        <consAngle>false</consAngle>        <triggerDrag>None</triggerDrag>        <trigger>None</trigger>        <autoFlip>false</autoFlip>        <flipDir>Left</flipDir>        <focus>true</focus>        <drop>droparea</drop>        <dropBounds>50</dropBounds>        <dropLock>true</dropLock>        <dropTrigger>None</dropTrigger>        <dropRunRelease>false</dropRunRelease>        <dropBack>false</dropBack>      </drag>      <layer id="dragobject">        <name>dragobject</name>        <scaleW>100</scaleW>        <scaleH>100</scaleH>        <rotate>0</rotate>        <randX>true</randX>        <randY>true</randY>        <randXStart>600</randXStart>        <randXEnd>1800</randXEnd>        <randYStart>800</randYStart>        <randYEnd>1200</randYEnd>        <render>true</render>        <jpg>false</jpg>        <jpgQuality>6</jpgQuality>        <renderAs>dragobject</renderAs>      </layer>    </page>  </pages></project>
+<project id="MagneticDrop">
+  <settings>
+    <name>MagneticDrop</name>
+    <media>Book</media>
+    <device>New iPad</device>
+    <OS>iOS</OS>
+    <zoom>zoomStretch</zoom>
+    <width>2048</width>
+    <height>1536</height>
+    <orientation>Landscape</orientation>
+    <resolution>264</resolution>
+    <bookmark>false</bookmark>
+    <swipe>true</swipe>
+    <pinch>false</pinch>
+    <thumbs>false</thumbs>
+  </settings>
+  <pages>
+    <page id="page1">
+      <name>page1</name>
+      <number>1</number>
+      <file>~/Documents/Kwik/MagneticDrop/page1.psd</file>
+      <fileName>page1.psd</fileName>
+      <drag id="drag_sheep">
+        <name>drag_sheep</name>
+        <target>Layer</target>
+        <layer>dragobject</layer>
+        <boundsX>false</boundsX>
+        <boundsY>false</boundsY>
+        <consAngle>false</consAngle>
+        <triggerDrag>None</triggerDrag>
+        <trigger>None</trigger>
+        <autoFlip>false</autoFlip>
+        <flipDir>Left</flipDir>
+        <focus>true</focus>
+        <drop>droparea</drop>
+        <dropBounds>50</dropBounds>
+        <dropLock>true</dropLock>
+        <dropTrigger>None</dropTrigger>
+        <dropRunRelease>false</dropRunRelease>
+        <dropBack>false</dropBack>
+      </drag>
+      <layer id="dragobject">
+        <name>dragobject</name>
+        <scaleW>100</scaleW>
+        <scaleH>100</scaleH>
+        <rotate>0</rotate>
+        <randX>true</randX>
+        <randY>true</randY>
+        <randXStart>600</randXStart>
+        <randXEnd>1800</randXEnd>
+        <randYStart>800</randYStart>
+        <randYEnd>1200</randYEnd>
+        <render>true</render>
+        <jpg>false</jpg>
+        <jpgQuality>6</jpgQuality>
+        <renderAs>dragobject</renderAs>
+      </layer>
+    </page>
+  </pages>
+</project>
